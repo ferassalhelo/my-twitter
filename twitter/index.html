@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="twitter" />
+    <meta name="discrption" content="my twitter" />
+    <meta name="author" content="feras alhelo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./imges/icon-tw.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>twitter</title>
+  </head>
+  <body>
+    <!--left conmponent-->
+    <section class="leftContener">
+      <div>
+        <ul class="list">
+          <li class="font" id="clearing">
+            <i class="fab fa-twitter" id="twitterIcon"></i> My twitter
+          </li>
+          <li class="li1">
+            <span><i class="fas fa-home"></i></span>
+            <p>Home</p>
+          </li>
+          <li class="li1">
+            <span><i class="fas fa-search"></i></span>
+            <p>Explore</p>
+          </li>
+          <li class="li1">
+            <span><i class="far fa-bell"></i></span>
+            <p>Notifications</p>
+          </li>
+          <li class="li1">
+            <span><i class="far fa-envelope"></i></span>
+            <p>Messages</p>
+          </li>
+          <li class="li1">
+            <span><i class="far fa-bookmark"></i></span>
+            <p>Bookmarks</p>
+          </li>
+          <li class="li1">
+            <span><i class="far fa-list-alt"></i></span>
+            <p>Lists</p>
+          </li>
+          <li class="li1">
+            <span><i class="far fa-user-circle"></i></span>
+            <p>Profile</p>
+          </li>
+          <li class="li1">
+            <span><i class="fas fa-ellipsis-h"></i></span>
+            <p>More</p>
+          </li>
+          <li class="li1">
+            <button class="button" id="cahngeStyle">change color</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--center conmponent-->
+    <h1 class="divHome" id="home"><i class="fas fa-home"></i> Home</h1>
+    <section class="majorContener" id="section">
+      <!--home-->
+
+      <!--form-->
+      <form class="form">
+        <label class="icon"><i class="fas fa-user"></i></label>
+        <input
+          type="text"
+          placeholder="enter your name"
+          class="field"
+          id="userName"
+        /><br />
+        <label class="icon"><i class="fas fa-file-alt"></i></label>
+        <input
+          type="text"
+          placeholder="enter your massige"
+          class="field"
+          id="userMassige"
+        /><br />
+        <label class="icon"><i class="fas fa-images"></i></label>
+        <input
+          type="url"
+          placeholder="enter imge link"
+          class="field"
+          id="userImge"
+        /><br />
+        <input type="button" value="send" class="send" id="send" />
+      </form>
+      <!--posts-->
+      <h1 class="postt" id="postt">Posts:</h1>
+      <div class="posts" id="posts"></div>
+    </section>
+    <section class="rightContener">
+      <div class="users" id="userss">users:</div>
+      <ul id="rightContener" class="list listt"></ul>
+    </section>
+    <!--button to scroll-->
+    <a href="#"> <i class="fas fa-arrow-circle-up arrow" id="arrow"></i></a>
+
+    <script
+      src="https://kit.fontawesome.com/289b476fa4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
