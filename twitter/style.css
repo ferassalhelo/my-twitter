@@ -1,0 +1,288 @@
+* {
+  transition: all 0.3s;
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(236, 255, 248);
+}
+.leftContener {
+  width: 25%;
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+.list {
+  list-style-type: none;
+  margin: 2vh 3vw;
+  font-weight: 700;
+  font-size: 20px;
+}
+.li1 {
+  margin: 3vh 0;
+  cursor: pointer;
+}
+ul li span i {
+  width: 30px;
+}
+ul li p {
+  display: inline;
+  color: rgb(45, 45, 45);
+}
+ul li p:hover {
+  color: black;
+}
+.font {
+  font-size: 25px;
+}
+.font i {
+  font-size: 37px;
+  margin-bottom: 4vh;
+}
+.button {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  width: 95%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  height: 5vh;
+  font-size: 18px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+}
+.majorContener {
+  width: 48%;
+  border-left: 1px solid rgb(73, 73, 73);
+  border-right: 1px solid rgb(73, 73, 73);
+  margin-left: 25%;
+  margin-top: 64px;
+  min-height: 1000px;
+}
+.divHome {
+  font-size: 25px;
+  position: fixed;
+  padding: 2.5vh 1vw;
+  left: 25%;
+  top: 0;
+  width: 45.86%;
+  background-color: white;
+  border: 1px solid rgb(78, 78, 78);
+  margin-block-start: 0%;
+  background-color: rgb(236, 255, 248);
+}
+.divHome h1 {
+  margin-block-start: 0%;
+}
+.form {
+  padding: 0 1vw;
+  padding-bottom: 2vh;
+
+  border-bottom: 7px solid rgb(78, 78, 78);
+}
+label i {
+  width: 25px;
+  font-size: 20px;
+}
+.field {
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  width: 90%;
+  height: 6vh;
+  border-radius: 10px;
+  margin: 1vh 0;
+  font-size: 18px;
+  padding-left: 1vw;
+  transition: all 0.2s;
+}
+.field:hover {
+  border-left-width: 3px;
+}
+
+.rightContener {
+  width: 27%;
+}
+.send {
+  width: 93%;
+  outline: none;
+  border: 1px solid black;
+  height: 6vh;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 1vh 0 1vh 30px;
+  transition: all 0.5s;
+  color: rgb(0, 0, 0);
+  background-color: rgb(226, 226, 226);
+}
+.send:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.posts {
+  padding: 1vh 1vw;
+}
+.postt {
+  font-size: 25px;
+  display: flex;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+}
+.post {
+  font-size: 25px;
+  display: flex;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+.divImgUser {
+  width: 7%;
+}
+.divImgUser i {
+  font-size: 35px;
+}
+.divFrmatUser {
+  width: 93%;
+}
+.userPost {
+  width: 100%;
+  margin-bottom: 2vh;
+  padding: 1vh 5%;
+  font-weight: 800;
+}
+
+.userName p {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+.userMassige {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-bottom: 2vh;
+}
+.userImg {
+  height: 25vw;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+  border: 1px solid black;
+}
+.userImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.divButtons {
+  display: flex;
+  justify-content: space-around;
+}
+.divButtons button {
+  background: white;
+  border: none;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(236, 255, 248);
+}
+#arrow {
+  display: none;
+}
+.arrow {
+  color: #000;
+  position: fixed;
+  bottom: 3vh;
+  right: 2vw;
+  font-size: 40px;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  opacity: 0.8;
+  transition: all 0.5s;
+}
+.arrow:hover {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+html {
+  scroll-behavior: smooth;
+}
+.icons {
+  color: rgb(0, 140, 250);
+  border-color: rgb(0, 140, 187);
+}
+.buttons {
+  background-color: rgb(0, 140, 250);
+  color: black;
+}
+.buttons:hover {
+  background-color: rgb(0, 140, 250);
+  color: black;
+}
+.buttonsHover {
+  color: rgb(0, 140, 250);
+  /*color: rgb(255, 255, 255);*/
+}
+.buttonsHover:hover {
+  background-color: rgb(0, 140, 250);
+  color: rgb(255, 255, 255);
+}
+.inputs {
+  color: rgb(0, 140, 250);
+  border-color: rgb(0, 140, 250);
+}
+.inputs:active {
+  color: rgb(0, 140, 250);
+  border-color: rgb(0, 140, 250);
+}
+.border {
+  border-color: rgb(0, 140, 250);
+}
+.retweet:active {
+  color: cyan;
+}
+
+.users {
+  font-size: 25px;
+  padding: 2.5vh 1vw;
+  margin-block-start: 0%;
+  font-weight: 700;
+  position: fixed;
+  padding: 2.5vh 1vw;
+  left: 73.2%;
+  top: 0;
+  background-color: rgb(236, 255, 248);
+  width: 30%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(59, 59, 59);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+.listt {
+  margin: 15vh 1vw;
+}
